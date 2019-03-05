@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Dummy Post 5"
+date:   2019-03-05 10:37
+author: Ben Centra
+categories: Dummy
+tags: lorem
+---
+
+
+![logo](./image/logo.png)
