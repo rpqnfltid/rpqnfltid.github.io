@@ -1,0 +1,11 @@
+이미지 올리는 두가지 방법
+
+첫번째
+
+<img width="200"  src="/assets/images/2mb.jpg">
+
+두번째
+
+다른 git hub 에 Repostitories 에서   Issue   에서 그림을 붙여넣은후 나온 링크를 적음
+
+<img src="https://user-images.githubusercontent.com/30885063/53775483-17b48080-3f36-11e9-9946-90b94da08476.png" width="100" height="50">
