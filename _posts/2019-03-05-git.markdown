@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Dummy Post 5"
+date:   2019-03-05 10:04
+author: Ben Centra
+categories: Dummy
+tags: lorem
+---
+cd c:/workspace/rpqnfltid.github.io  //파일 설정
+
+git status   	// 변경사항 확인
+
+git add *      
+
+git status
+
+git commit -m"@@"		// 커맨드작성 오늘작업 
+
+git status
+
+git push
