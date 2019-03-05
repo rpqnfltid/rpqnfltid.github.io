@@ -7,5 +7,4 @@ categories: Dummy
 tags: lorem
 ---
 
-
-![logo](./image/logo.png)
+![logo](https://user-images.githubusercontent.com/30885063/53775483-17b48080-3f36-11e9-9946-90b94da08476.png)
