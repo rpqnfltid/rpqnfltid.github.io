@@ -10,5 +10,5 @@ cover:  "/assets/header_image.jpg"
 개수 1 파일 2mb
 
 <br/>
-<a href="/assets/files/test.zip">2mb</a>
+<a href="/assets/files/2mb.zip">2mb</a>
 <br/>
