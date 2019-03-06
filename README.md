@@ -1,6 +1,6 @@
-# Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
+#  윤희의 Github 블로그 [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
 
-A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.
+윤희의 Github 놀이터입니다.
 
 Built with these awesome libraries:
 * [Bourbon][bourbon]

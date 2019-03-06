@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "speed test result"
+date:   2019-03-06 14:35:0
+author: uni
+categories: test
+tags:	Speed Test Result
+cover:  "/assets/header_image.jpg"
+---
+
+결과
+<br/>
+<img width="600" src="/assets/images/result.jpg">
+<br/>
+
+<br/>
