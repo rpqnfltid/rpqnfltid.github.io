@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "speed test1"
+date:   2019-03-05 17:19:0
+author: uni
+categories: Jekyll
+tags:	jekyll welcome
+cover:  "/assets/header_image.jpg"
+---
+개수 1 파일 2mb
+
+<br/>
+<a href="/assets/files/2mb.zip">2mb</a>
+<br/>
