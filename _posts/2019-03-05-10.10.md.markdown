@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "speed test1-3"
+date:   2019-03-06 09:35:0
+author: uni
+categories: Jekyll
+tags:	jekyll welcome
+cover:  "/assets/header_image.jpg"
+---
+개수 10 파일 10mb
+
+<br/>
+<a href="/assets/files/1mb.zip">1mb-1</a>
+<br/>
+
+<br/>
+<a href="/assets/files/1mb.zip">1mb-2</a>
+<br/>
+<br/>
+<a href="/assets/files/1mb.zip">1mb-3</a>
+<br/>
+<br/>
+<a href="/assets/files/1mb.zip">1mb-4</a>
+<br/><br/>
+<a href="/assets/files/1mb.zip">1mb-5</a>
+<br/>
+<br/>
+<a href="/assets/files/1mb.zip">1mb-6</a>
+<br/>
+
+<br/>
+<a href="/assets/files/1mb.zip">1mb-7</a>
+<br/>
+<br/>
+<a href="/assets/files/1mb.zip">1mb-8</a>
+<br/>
+<br/>
+<a href="/assets/files/1mb.zip">1mb-9</a>
+<br/><br/>
+<a href="/assets/files/1mb.zip">1mb-10</a>
+<br/>
