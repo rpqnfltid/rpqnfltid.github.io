@@ -51,7 +51,7 @@ categories: 오픈 소스 open source reviw
 
 
 
-<img src="http://www.bloter.net/wp-content/uploads/2016/03/Navercast_FSF_licenses.png"height="300">
+<img src="http://www.bloter.net/wp-content/uploads/2016/03/Navercast_FSF_licenses.png" height="300">
 
 
 
