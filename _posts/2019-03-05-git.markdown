@@ -9,7 +9,7 @@ tags: lorem
 cd c:/workspace/rpqnfltid.github.io  //파일 설정
  <br/>
 git status   	// 변경사항 확인
- <br/>
+
 git add *      
  <br/>
 git status
