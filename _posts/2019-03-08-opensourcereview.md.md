@@ -68,7 +68,7 @@ categories: 오픈 소스 open source reviw
 <h2>카피라이트와 카피레프트</h2>
 
 
-<img src ="https://commons.wikimedia.org/wiki/File:Copyleft.svg" height="150">
+<img src ="https://upload.wikimedia.org/wikipedia/commons/8/8b/Copyleft.svg" height="150">
 
 카피레프트의 상징은 ©를 뒤집어서 표현한다.
 카피레프트(copyleft)란 독점적인 의미의 저작권(카피라이트, copyright)에 반대되는 개념이며, 저작권에 기반을 둔 사용 제한이 아니라 저작권을 기반으로 한 정보의 공유를 위한 조치이다. 카피레프트를 주장하는 사람들은 보통, 지식과 정보는 소수에게 독점되어서는 안 되며, 모든 사람에게 열려 있어야 한다고 주장한다.
