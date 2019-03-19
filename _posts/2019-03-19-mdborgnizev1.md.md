@@ -17,7 +17,7 @@ categories: Database
 <h3>버퍼</h3>는 컴퓨터 안의 프로세스 사이에서 데이터를 이동시킬 때 사용된다
 
 
-<h3>인증(Authentication), 권한부여(Authorization)</h3>
+<h3>인증(Authentication), 권한부여(Authorization), 구독(Subscriptions)</h3>
 
 
 
@@ -39,7 +39,6 @@ Mariadb AX 는 분석용으로 큰데이터들을 사용할 때 쓴다.
 
 
 <h3>optimizer</h3> 데이터를 찾아갈때 최적화경로를 찾는것 
-
 
 
 
