@@ -29,10 +29,10 @@ categories: Database
 scale up은 서버의 질을 높이는것이고 
 scale out은 서버의 양을 많이하는것이다.  
 
-<h3>Mariadb TX , Mariadb AX</h3>
+<h3>MariaDB TX , MariaDB AX</h3>
 
-Mariadb TX 는 작은데이터를 자주 보낼 때사용 ex 메세지
-Mariadb AX 는 분석용으로 큰데이터들을 사용할 때 쓴다.
+MariaDB TX 는 작은데이터를 자주 보낼 때사용 ex 메세지
+MariaDB AX 는 분석용으로 큰데이터들을 사용할 때 쓴다.
 
 
 <h3>parser </h3>컴퓨터언어 문법에맞는지 확인하는것
