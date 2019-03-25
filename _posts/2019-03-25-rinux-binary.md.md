@@ -33,10 +33,10 @@ cover:  "/assets/header_image4.png"
 
 <h2>압축풀기</h2>
 
-
+<br>
 <h4>tar zxvf index(tab)</h4>
 
- 
+ <br>
 
  
 <img  src="/assets/images/bi3.jpg">
@@ -83,18 +83,18 @@ chown -R mysql.mysql /log
 
 
 
-
+<br>
 <h2>my.cnf설정</h2>
 
 
-
+<br>
 <h4>vi /etc/my.cnf
 
-
+<br>
 datadir=/DATA
 
 
-
+<br>
 basedir=/usr/local/mariadb
 
  </h4>
@@ -124,23 +124,23 @@ basedir=/usr/local/mariadb
 <h4>cd /usr/local/mariadb/support-flies
 
 
-
+<br>
 cp mysql.server /etc/init.d/mysqld
 
-
+<br>
 
 vi /etc/init.d/mysqld
-
+<br>
 
 
 45 46번째 줄 데이터변경
 
 
-
+<br>
 datadir= /data
 
 
-
+<br>
 base=/usr/local/mariadb
 
  </h4>
@@ -186,15 +186,15 @@ base=/usr/local/mariadb
 
 45 46번째줄 수정
 
-
+<br>
 
 datadir= /data
 
-
+<br>
 
 basedir=/usr/local/mariadb
  
-
+<br>
  
 <img  src="/assets/images/bi10.jpg">
 
@@ -204,20 +204,20 @@ basedir=/usr/local/mariadb
 <h2>설정값 추가</h2>
 
 
-
+<br>
 
 /etc/my.cnf에
 
-
+<br>
 
 [client]
 
-
+<br>
 
 socket=/usr/lib/mysql/mysql.sock추가
  
  
-
+<br>
 
 <img  src="/assets/images/bi11.jpg">
 
