@@ -47,20 +47,26 @@ cover:  "/assets/header_image4.png"
 
 <h4>mv mariadb-10.3.13-linux-x86_64/ /usr/local/</h4>
 
-<h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb</h4>
+<h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb
 
 <h4>
 groupadd mysql
+
 useradd -g mysql mysql
 
 mkdir /data
+
 mkdir /log
 
 
 chown -R mysql.mysql(userid) /usr/local/mariadb (파일위치)
+
 chown -R mysql.mysql(userid) /usr/local/mariadb
+
 chown -R mysql.mysql /data
+
 chown -R mysql.mysql /log
+
 
  </h4>
  
@@ -76,6 +82,7 @@ chown -R mysql.mysql /log
 
 
 datadir=/DATA
+
 basedir=/usr/local/mariadb
 
  </h4>
@@ -103,11 +110,15 @@ basedir=/usr/local/mariadb
 
 
 <h4>cd /usr/local/mariadb/support-flies
-cp mysql.server 	/etc/init.d/mysqld
+
+cp mysql.server /etc/init.d/mysqld
+
 vi /etc/init.d/mysqld
 
 45 46번째 줄 데이터변경
+
 datadir= /data
+
 base=/usr/local/mariadb
 
  </h4>
@@ -142,9 +153,11 @@ base=/usr/local/mariadb
 <h2> 설정값 설정 </h2>
 
 <h4>vi /usr/local/mariadb/support-files/mysql.server</h4>
+
 45 46번째줄 수정
 
 datadir= /data
+
 basedir=/usr/local/mariadb
  
 
@@ -158,7 +171,9 @@ basedir=/usr/local/mariadb
 
 
 /etc/my.cnf에
+
 [client]
+
 socket=/usr/lib/mysql/mysql.sock추가
  
  
