@@ -1,0 +1,181 @@
+---
+layout: post
+title:  "리눅스 바이너리 설치"
+date:   2019-03-20 17:01:00
+author: uni
+categories: Rinux CentOS7 MariaDB
+cover:  "/assets/header_image4.png"
+---
+
+
+<h3>yum으로 wget 설치</h3>
+
+
+
+
+<h4> yum install wget</h4>
+
+ 
+<img  src="/assets/images/bi1.jpg">
+
+
+
+
+<h3>wget으로 MariaDB 다운로드</h3>
+
+<h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A//ftp.harukasan.org/mariadb/?serve</h4>
+ 
+ 
+ 
+<img  src="/assets/images/bi2.jpg">
+
+
+
+<h3>압축풀기</h3>
+
+<h4>tar zxvf index(tab)</h4>
+
+ 
+
+ 
+<img  src="/assets/images/bi3.jpg">
+
+
+
+
+<h3>mv로 local로 이동후 설정값 세팅</h3>
+<h4>mv mariadb-10.3.13-linux-x86_64/ /usr/local/</h4>
+
+<h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb</h4>
+<h4>
+groupadd mysql
+useradd -g mysql mysql
+
+mkdir /data
+mkdir /log
+
+
+chown -R mysql.mysql(userid) /usr/local/mariadb (파일위치)
+chown -R mysql.mysql(userid) /usr/local/mariadb
+chown -R mysql.mysql /data
+chown -R mysql.mysql /log
+
+ </h4>
+ 
+<img  src="/assets/images/bi4.jpg">
+
+
+
+
+
+<h3>my.cnf설정</h3>
+<h4>vi /etc/my.cnf
+
+
+datadir=/DATA
+basedir=/usr/local/mariadb
+
+ </h4>
+
+ 
+<img  src="/assets/images/bi5.jpg">
+
+
+
+
+
+<h3>install</h3>
+<h4>
+/usr/local/mariadb/scrips/mysql_install_db --basedir=/usr/local/mariadb --defaults-file=/etc/my.cnf</h4>
+ 
+
+ 
+<img  src="/assets/images/bi6.jpg">
+
+
+<h3>설정값 설정</h3>
+
+
+<h4>cd /usr/local/mariadb/support-flies
+cp mysql.server 	/etc/init.d/mysqld
+vi /etc/init.d/mysqld
+
+45 46번째 줄 데이터변경
+datadir= /data
+base=/usr/local/mariadb
+
+ </h4>
+
+ 
+<img  src="/assets/images/bi7.jpg">
+
+
+
+
+
+<h3>설정값설정</h3>
+
+<h4>chown -R mysql.mysql /data</h4>
+ 
+
+ 
+<img  src="/assets/images/bi8.jpg">
+
+
+
+<h3>MariaDB 시작준비</h3>
+
+<h4>service mysqld start</h4>
+ 
+
+ 
+<img  src="/assets/images/bi9.jpg">
+
+
+
+<h3> 설정값 설정 </h3>
+<h4>vi /usr/local/mariadb/support-files/mysql.server</h4>
+45 46번째줄 수정
+
+datadir= /data
+basedir=/usr/local/mariadb
+ 
+
+ 
+<img  src="/assets/images/bi10.jpg">
+
+
+
+
+<h3>설정값 추가</h3>
+
+
+/etc/my.cnf에
+[client]
+socket=/usr/lib/mysql/mysql.sock추가
+ 
+ 
+<img  src="/assets/images/bi11.jpg">
+
+
+
+
+실행완료
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
