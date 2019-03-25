@@ -47,32 +47,32 @@ cover:  "/assets/header_image4.png"
 <h2>mv로 local로 이동후 설정값 세팅</h2>
 
 <h4>mv mariadb-10.3.13-linux-x86_64/ /usr/local/</h4>
-
+<br>
 <h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb
-
+<br>
 <h4>
 groupadd mysql
 
-
+<br>
 useradd -g mysql mysql
 
-
+<br>
 
 mkdir /data
-
+<br>
 
 mkdir /log
 
-
+<br>
 chown -R mysql.mysql(userid) /usr/local/mariadb (파일위치)
 
-
+<br>
 chown -R mysql.mysql(userid) /usr/local/mariadb
-
+<br>
 
 chown -R mysql.mysql /data
 
-
+<br>
 chown -R mysql.mysql /log
 
 
