@@ -48,6 +48,7 @@ cover:  "/assets/header_image4.png"
 
 <h4>mv mariadb-10.3.13-linux-x86_64/ /usr/local/</h4>
 <br>
+<h2>퍼블릭링크설정</h2>
 <h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb
 <br>
 <h4>
@@ -133,7 +134,7 @@ vi /etc/init.d/mysqld
 <br>
 
 
-45 46번째 줄 데이터변경
+45, 46번째 줄 데이터변경
 
 
 <br>
@@ -184,7 +185,7 @@ base=/usr/local/mariadb
 
 
 
-45 46번째줄 수정
+45, 46번째줄 수정
 
 <br>
 
