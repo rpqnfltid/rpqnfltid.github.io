@@ -8,7 +8,7 @@ cover:  "/assets/header_image4.png"
 ---
 
 
-<h3>yum으로 wget 설치</h3>
+<h2>yum으로 wget 설치</h2>
 
 
 
@@ -21,7 +21,7 @@ cover:  "/assets/header_image4.png"
 
 
 
-<h3>wget으로 MariaDB 다운로드</h3>
+<h2>wget으로 MariaDB 다운로드</h2>
 
 <h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A//ftp.harukasan.org/mariadb/?serve</h4>
  
@@ -31,7 +31,7 @@ cover:  "/assets/header_image4.png"
 
 
 
-<h3>압축풀기</h3>
+<h2>압축풀기</h2>
 
 <h4>tar zxvf index(tab)</h4>
 
@@ -43,10 +43,12 @@ cover:  "/assets/header_image4.png"
 
 
 
-<h3>mv로 local로 이동후 설정값 세팅</h3>
+<h2>mv로 local로 이동후 설정값 세팅</h2>
+
 <h4>mv mariadb-10.3.13-linux-x86_64/ /usr/local/</h4>
 
 <h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb</h4>
+
 <h4>
 groupadd mysql
 useradd -g mysql mysql
@@ -68,7 +70,8 @@ chown -R mysql.mysql /log
 
 
 
-<h3>my.cnf설정</h3>
+<h2>my.cnf설정</h2>
+
 <h4>vi /etc/my.cnf
 
 
@@ -84,7 +87,8 @@ basedir=/usr/local/mariadb
 
 
 
-<h3>install</h3>
+<h2>install</h2>
+
 <h4>
 /usr/local/mariadb/scrips/mysql_install_db --basedir=/usr/local/mariadb --defaults-file=/etc/my.cnf</h4>
  
@@ -93,7 +97,9 @@ basedir=/usr/local/mariadb
 <img  src="/assets/images/bi6.jpg">
 
 
-<h3>설정값 설정</h3>
+
+<h2>설정값 설정</h2>
+
 
 
 <h4>cd /usr/local/mariadb/support-flies
@@ -113,7 +119,7 @@ base=/usr/local/mariadb
 
 
 
-<h3>설정값설정</h3>
+<h2>설정값설정</h2>
 
 <h4>chown -R mysql.mysql /data</h4>
  
@@ -123,7 +129,7 @@ base=/usr/local/mariadb
 
 
 
-<h3>MariaDB 시작준비</h3>
+<h2>MariaDB 시작준비</h2>
 
 <h4>service mysqld start</h4>
  
@@ -133,7 +139,8 @@ base=/usr/local/mariadb
 
 
 
-<h3> 설정값 설정 </h3>
+<h2> 설정값 설정 </h2>
+
 <h4>vi /usr/local/mariadb/support-files/mysql.server</h4>
 45 46번째줄 수정
 
@@ -147,7 +154,7 @@ basedir=/usr/local/mariadb
 
 
 
-<h3>설정값 추가</h3>
+<h2>설정값 추가</h2>
 
 
 /etc/my.cnf에
