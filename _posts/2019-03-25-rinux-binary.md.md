@@ -232,17 +232,3 @@ socket=/usr/lib/mysql/mysql.sock추가
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
