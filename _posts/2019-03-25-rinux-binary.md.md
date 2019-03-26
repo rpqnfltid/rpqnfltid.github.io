@@ -23,9 +23,9 @@ cover:  "/assets/header_image4.png"
 
 <h2>wget으로 MariaDB 다운로드</h2>
 
-<h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A//</h4>
+<h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz</h4>
  
-<a href="https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A/">https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A/</a>
+<a href="https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz">https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz</a>
  
 <img  src="/assets/images/bi2.jpg">
 
@@ -34,7 +34,7 @@ cover:  "/assets/header_image4.png"
 <h2>압축풀기</h2>
 
 <br>
-<h4>tar zxvf index(tab)</h4>
+<h4>tar zxvf mariadb-10.3.13-linux-x86_64.tar.gz </h4>
 
  <br>
 
@@ -49,7 +49,10 @@ cover:  "/assets/header_image4.png"
 <h4>mv mariadb-10.3.13-linux-x86_64/ /usr/local/</h4>
 <br>
 <h2>퍼블릭링크설정</h2>
-<h4>ln -s usr/local/mariadb-10.3.13<tab> mariadb
+<h4>cd /usr/local/
+
+<br>
+ln -s usr/local/mariadb-10.3.13<tab> mariadb
 <br>
 <h4>
 groupadd mysql
@@ -58,17 +61,17 @@ groupadd mysql
 useradd -g mysql mysql
 
 <br>
-
+cd 
 mkdir /data
 <br>
 
 mkdir /log
 
 <br>
-chown -R mysql.mysql(userid) /usr/local/mariadb (파일위치)
+chown -R mysql.mysql(groupid.userid) /usr/local/mariadb (파일위치)
 
 <br>
-chown -R mysql.mysql(userid) /usr/local/mariadb
+chown -R mysql.mysql /usr/local/mariadb
 <br>
 
 chown -R mysql.mysql /data
