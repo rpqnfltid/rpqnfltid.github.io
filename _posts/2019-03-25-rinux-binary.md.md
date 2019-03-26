@@ -25,7 +25,7 @@ cover:  "/assets/header_image4.png"
 
 <h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A//</h4>
  
-<a href>https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A/</a>
+<a href="https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A/">https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A/</a>
  
 <img  src="/assets/images/bi2.jpg">
 
