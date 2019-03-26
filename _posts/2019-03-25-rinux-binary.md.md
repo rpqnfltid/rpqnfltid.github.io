@@ -23,9 +23,9 @@ cover:  "/assets/header_image4.png"
 
 <h2>wget으로 MariaDB 다운로드</h2>
 
-<h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A//ftp.harukasan.org/mariadb/?serve</h4>
+<h4>wget https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A//</h4>
  
- 
+<a href>https://downloads.mariadb.org/f/mariadb-10.3.13/bintar-linux-x86_64/mariadb-10.3.13-linux-x86_64.tar.gz/from/https%3A/</a>
  
 <img  src="/assets/images/bi2.jpg">
 
@@ -142,7 +142,7 @@ datadir= /data
 
 
 <br>
-base=/usr/local/mariadb
+basedir=/usr/local/mariadb
 
  </h4>
 
