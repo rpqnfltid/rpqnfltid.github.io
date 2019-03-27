@@ -95,13 +95,13 @@ chown -R mysql.mysql /log
 <br>
 <h4>vi /etc/my.cnf
 
-<br>
-datadir=/DATA
 
 
 <br>
 basedir=/usr/local/mariadb
 
+<br>
+datadir=/DATA
  </h4>
 
  
@@ -141,12 +141,12 @@ vi /etc/init.d/mysqld
 45, 46번째 줄 데이터변경
 
 
-<br>
-datadir= /data
-
 
 <br>
 basedir=/usr/local/mariadb
+
+<br>
+datadir= /data
 
  </h4>
 
@@ -191,14 +191,14 @@ basedir=/usr/local/mariadb
 
 45, 46번째줄 수정
 
-<br>
-
-datadir= /data
 
 <br>
 
 basedir=/usr/local/mariadb
- 
+ <br>
+
+datadir= /data
+
 <br>
  
 <img  src="/assets/images/bi10.jpg">
