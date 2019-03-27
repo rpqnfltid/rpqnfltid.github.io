@@ -61,7 +61,8 @@ groupadd mysql
 useradd -g mysql mysql
 
 <br>
-cd 
+cd /
+
 mkdir /data
 <br>
 
