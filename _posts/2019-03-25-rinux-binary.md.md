@@ -218,7 +218,7 @@ basedir=/usr/local/mariadb
 
 <br>
 
-socket=/usr/lib/mysql/mysql.sock추가
+socket=/var/lib/mysql/mysql.sock추가
  
  
 <br>
