@@ -20,7 +20,7 @@ yum install cmake make gcc gcc-c++ ncurses-devel libevent openssl openssl-devel
  
  <img  src="/assets/images/so1.jpg">
 
-Wget <a hrep="https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz"> https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz
+Wget <a href="https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz"> https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz
  </a>
  
  
