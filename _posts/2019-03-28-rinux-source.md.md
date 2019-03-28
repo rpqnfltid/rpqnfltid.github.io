@@ -59,7 +59,7 @@ chown -R mysql.mysql /usr/local/mysql<br>
 
 cd /usr/local/mariadb/scripts<br>
 
-./mysql_install_db --datadir=/data --basedir=/usr/local/mariadb<br>
+./mysql_install_db ---datadir=/data ---basedir=/usr/local/mariadb<br>
  
  <img  src="/assets/images/so6.jpg">
 vi /etc/my.cnf<br>
