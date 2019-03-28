@@ -20,7 +20,7 @@ yum install cmake make gcc gcc-c++ ncurses-devel libevent openssl openssl-devel
  
  <img  src="/assets/images/so1.jpg">
 
-Wget<a hrep="https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz"> https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz
+Wget <a hrep="https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz"> https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz
  </a>
  
  
@@ -47,7 +47,7 @@ make&&make install
  
 <img  src="/assets/images/so5.jpg">
 
-
+cd/usr/local/<br>
 ln -s mysql mariadb<br>
 groupadd mysql<br>
 useradd -g mysql mysql<br>
