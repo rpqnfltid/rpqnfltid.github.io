@@ -9,10 +9,10 @@ cover:  "/assets/header_image4.png"
 
 소스컴파일 설치
 
-Yum update
+yum update
 
 
-Yum install wget
+yum install wget
 
 
 yum install cmake make gcc gcc-c++ ncurses-devel libevent openssl openssl-devel
@@ -20,29 +20,29 @@ yum install cmake make gcc gcc-c++ ncurses-devel libevent openssl openssl-devel
  
  <img  src="/assets/images/so1.jpg">
 
-Wget <a href="https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz"> https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz
+wget <a href="https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz"> https://downloads.mariadb.org/interstitial/mariadb-10.3.13/source/mariadb-10.3.13.tar.gz
  </a>
  
  
 <img  src="/assets/images/so2.jpg">
 
 
-Tar zxvf mariadb-10.3.13.tar.gz
+tar zxvf mariadb-10.3.13.tar.gz
 
 
  <img  src="/assets/images/so3.jpg">
 
-mkdir /data
-mkdir /maradb/build
-cd /mariadb/build
+mkdir /data <br>
+mkdir /maradb/build<br>
+cd /mariadb/build<br>
 
 
-cmake .. 
+cmake .. <br>
  
 <img  src="/assets/images/so4.jpg">
 
 
-make&&make install
+make&&make install<br>
  
  
 <img  src="/assets/images/so5.jpg">
@@ -82,7 +82,7 @@ service mysqld start<br>
  <img  src="/assets/images/so9.jpg">
 
 
-Cd /usr/local/mariadb/bin<br>
+cd /usr/local/mariadb/bin<br>
 ./mysql -uroot -p
 
 
