@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "리눅스 바이너리 설치"
-date:   2019-03-25 16:01:00
+title:  "리눅스 소스컴파일 설치"
+date:   2019-03-28 13:35:00
 author: uni
 categories: Rinux CentOS7 MariaDB
 cover:  "/assets/header_image4.png"
