@@ -47,7 +47,7 @@ categories: 오픈 소스 open source
 	Apache Software Foundation (ASF)
 - 전 세계적으로 가장 많이 사용되고 있는 웹 서버 소프트웨어인 아파치 HTTP 서버, 빅 데이터 분석 플랫폼인 아파치 하둡(Hadoop), 자바 애플리케이션 서버인 아파치 톰캣(Tomcat) 등 350여 오픈소스 프로젝트를 관장하며, 지원 조직과 법, 재무 지원을 제공한다. 그리고 아파치 라이선스로 소프트웨어를 배포하고 있다.
 
-	Software Freedom Conservancy</br>
+	Software Freedom Conservancy
 - Git, Samba, Wine 등 33개 프로젝트 관리.
 - GPL 의무화를 위한 GPL Compliance Project를 추진.
 
@@ -57,19 +57,19 @@ categories: 오픈 소스 open source
 	Eclipse Foundation
 - 이클립스 개발 툴을 비롯한 소프트웨어 개발, 배포, 관리용 소프트웨어를 개발하는 오픈소스 커뮤니티를 지원하고 있다.
 
-	Cloud Foundry Foundation</br>
+	Cloud Foundry Foundation
 - 클라우드 구축에 필요한 인프라 소프트웨어들을 관리.
 - EMC, HP, IBM, Intel, SAP등의 벤더가 공동 참여
 
-	Free Software Foundation (FSF)</br>
+	Free Software Foundation (FSF)
 - 리처드 스톨만이 창립했으며, 소프트웨어의 자유로운 사용에 초점을 맞추고 있음.
 - 무료 운영 시스템 구현에 목표를 둔 GNU 프로젝트만 관리.
 
-	Open Source Initiative (OSI)</br>
+	Open Source Initiative (OSI)
  - 특정 프로젝트가 아닌 소프트웨어 ‘운동’을 지원.|
  - FSF 와의 차이점은 FSF는 소프트웨어의 ‘자유’에 초점을 맞추지만, OSI는 ‘오픈소스 소프트웨어’에 초점을 맞추고 있다.
 
-	Openstack Foundation</br>
+	Openstack Foundation
  - 오픈 스택 클라우드 운영 시스템 프로젝트.
 
 <h4>성공한 오픈소스 프로젝트?</h4>
@@ -125,5 +125,4 @@ Free Software 운동 시작 후 자유소프트웨어 재단(FSF) 설립.
 	IBM : 공개 SW 클라우드 인프라 플랫폼 ‘오픈스택’, 머신러닝 ‘시스템ML’, 블록체인 ‘하이퍼레저’의 소스코트를 오픈함
 하지만 국내 기업들의 움직임은 미진한 편. 깃허브, 리눅스 재단 등에서도 국내 개발자들은 프로젝트에 참여하는 것 보단 주로 결과만 이용한다는 시선을 받고 있다.
 
-<h2>느낀 점</h2>
-오픈소스가 지금까지 큰 시장으로 클 수 있었던 이유는 내가 단편적으로 보고 느끼기에는 사람들이 코드를 작성하고 저장할 때에 매번 버전업그레이드를 할 때 번거로움을 줄여주는 페이지를 찾다가 크고 믿음이 가는 사이트 중 하나인 GIthub라는 페이지에 저장을 했는데 처음에는 오픈 소스가 된다는 것이 억울 할 수 도 있었겠지만 지금은 익숙해지는 바람에 그것이 당연함으로 느끼는 것이 아닐까 쉽다 처음이 Github가 아니라 이익을 추구하는 사이트였더라면 지금의 이런 방대한 오픈 소스는 없지 않았을까 싶다.
+
