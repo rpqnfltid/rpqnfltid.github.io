@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "레드햇 repository 설정"
-date:   2019-03-28 13:35:00
+date:   2019-04-3 11:15:00
 author: uni
 categories: Rinux Redhat rhel repostitory
 cover:  "/assets/header_image5.png"
