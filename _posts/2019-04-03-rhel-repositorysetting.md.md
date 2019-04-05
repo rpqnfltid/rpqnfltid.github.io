@@ -53,6 +53,7 @@ ls
 
 
 
+cat yum.repos.d<br>
 
 vi redhat.repo<br>
 해서 추가<br>
