@@ -4,6 +4,7 @@ title:  "레드햇 root passwd 재설정"
 date:   2019-04-8 14:25:00
 author: uni
 categories: Rinux Redhat rhel root passwd
+cover:  "/assets/header_image5.png"
 
 ---
 
