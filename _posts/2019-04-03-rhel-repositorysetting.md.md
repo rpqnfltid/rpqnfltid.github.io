@@ -83,6 +83,11 @@ rpm -qa | grep yum  로 확인
 
 
 
+자동마운트
+
+vi /etc/fstab
+
+/dev/sr1 /root/iso iso9660 defaults 1 0
 
 
 
