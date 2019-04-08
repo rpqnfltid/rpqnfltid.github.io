@@ -8,20 +8,18 @@ categories: Rinux Redhat rhel repostitory
 ---
 
 
- 
+ <br>
  
  
 
 cd /etc/sysconfig/network-scripts/<br>
 
-
-본드0 만들기<br>
+<br>
+본드0 만들기<br><br>
 ifcfg-bond0<br>
 
  
  
- 
- <img  src="/assets/images/bon1.jpg"><br>
  
  
 
@@ -40,11 +38,13 @@ GATEWAY=192.168.1.1<br>
 PREFIX=24<br>
 ONBOOT=yes<br>
 BOOTPROTO=none<br>
-BONDING_OPTS="mode=1 miimon=100"<br>
+BONDING_OPTS="mode=1 miimon=100"<br><br>
 
 
 
-
+ <img  src="/assets/images/bon1.jpg"><br>
+ 
+<br><br>
 
 vi ifcfg-ens33<br><br>
 
