@@ -55,7 +55,7 @@ ls
 
 cat yum.repos.d<br>
 
-vi redhat.repo<br>
+vi local.repo<br>
 해서 추가<br>
 [local-repo]<br>
 name=Local Repository<br>
