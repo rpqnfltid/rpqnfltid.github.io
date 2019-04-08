@@ -44,7 +44,7 @@ mount /dev/sr0 /root/iso<br>
 
 
 cd /etc/yum.repos.d<br>
-ls
+
  
 
  
@@ -52,8 +52,6 @@ ls
 
 
 
-
-cat yum.repos.d<br>
 
 vi local.repo<br>
 해서 추가<br>
