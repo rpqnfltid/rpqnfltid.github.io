@@ -3,7 +3,7 @@ layout: post
 title:  "레드햇 bonding 설정"
 date:   2019-04-8 9:25:00
 author: uni
-categories: Rinux Redhat rhel repostitory
+categories: Rinux Redhat rhel bonding
 
 ---
 
