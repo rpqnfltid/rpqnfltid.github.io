@@ -61,6 +61,7 @@ baseurl=file:///root/iso<br>
 enabled=1<br>
 gpgcheck=0<br>
 
+
  
  
  <img  src="/assets/images/rp5.jpg">
