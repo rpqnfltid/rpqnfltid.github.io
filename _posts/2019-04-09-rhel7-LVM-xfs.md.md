@@ -10,9 +10,7 @@ cover:  "/assets/header_image5.png"
 
 
 <h3>
- 
- <img  src="/assets/images/swap1.jpg"><br>
- 
+
  
 
  
@@ -40,7 +38,7 @@ yum install lvm2* -y
 
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm1.jpg"><br>
  
  
 
@@ -63,7 +61,7 @@ w
  
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm2.jpg"><br>
  
  
 
@@ -76,7 +74,7 @@ vgcreate VG02 /dev/sc2
 
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm3.jpg"><br>
  
  
 
@@ -91,7 +89,7 @@ lvcreate -l 1023 -n LV05 VG02
  
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm4.jpg"><br>
  
  
 
@@ -104,7 +102,7 @@ mkfs  -t   xfs -f /dev/VG01/LV02
  
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm5.jpg"><br>
  
  
 
@@ -117,7 +115,7 @@ mkfs -t  ext4  /dev/VG02/LV05
 
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm6.jpg"><br>
  
  
 
@@ -134,7 +132,7 @@ mount /dev/VG01/LV02 /lvdir02
 
 
  
- <img  src="/assets/images/swap1.jpg"><br>
+ <img  src="/assets/images/lvm7.jpg"><br>
  
  
 
@@ -146,6 +144,19 @@ mount /dev/VG01/LV02 /lvdir02
 
 </h3>
 
+
+Vi /etc/fstab
+
+/dev/VG01/LV01 /lvdir01 xfs defaults 1 0
+/dev/VG01/LV02 /lvdir02 xfs defaults 1 0
+ 
+
+
+
+ 
+ <img  src="/assets/images/lvm8.jpg"><br>
+ 
+ 
 
 
 
