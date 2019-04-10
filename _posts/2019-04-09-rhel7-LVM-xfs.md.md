@@ -14,25 +14,25 @@ cover:  "/assets/header_image5.png"
  
 
  
-LVM 
+LVM <br><br>
 
 
 
-     20GB의 하드디스크를 1개 더 추가한다. 
-     추가한 하드디스크는 아래와 같은 파티션으로 구성한다. 
-     10GB의 용량을 가지는 볼륨그룹 VG01 생성
-    10GB의 용량을 가지는 볼륨그룹 VG02 생성
-     VG01에 5GB의 용량을 가지는 LV01 생성
-    VG01에 5GB의 용량을 가지는 LV02 생성
-     VG02에 3GB의 용량을 가지는 LV03 생성
-      VG02에 3GB의 용량을 가지는 LV04 생성
-    VG02에 4GB의 용량을 가지는 LV05 생성
-     LV01과 LV02는 xfx 파일시스템으로 포맷한다. 
-     LV03~05는 ext4 파일시스템으로 포맷한다   
-  LV01은 /lvdir01 LV02는 /lvdir02에 각각 영구 마운트한다. 
+     20GB의 하드디스크를 1개 더 추가한다. <br>
+     추가한 하드디스크는 아래와 같은 파티션으로 구성한다. <br>
+     10GB의 용량을 가지는 볼륨그룹 VG01 생성<br>
+    10GB의 용량을 가지는 볼륨그룹 VG02 생성<br>
+     VG01에 5GB의 용량을 가지는 LV01 생성<br>
+    VG01에 5GB의 용량을 가지는 LV02 생성<br>
+     VG02에 3GB의 용량을 가지는 LV03 생성<br>
+      VG02에 3GB의 용량을 가지는 LV04 생성<br>
+    VG02에 4GB의 용량을 가지는 LV05 생성<br>
+     LV01과 LV02는 xfx 파일시스템으로 포맷한다. <br>
+     LV03~05는 ext4 파일시스템으로 포맷한다   <br>
+  LV01은 /lvdir01 LV02는 /lvdir02에 각각 영구 마운트한다. <br>
 
-
-yum install lvm2* -y
+<br>
+yum install lvm2* -y<br><br>
 
  
 
@@ -43,33 +43,33 @@ yum install lvm2* -y
  
 
  
-lsblk
-fdisk /dev/sdc 
+lsblk<br>
+fdisk /dev/sdc <br>
 
-N
-default
-default
-default
-+10G
-N
-default
-default
-default
-default
-w
-
- 
-
- 
- <img  src="/assets/images/lvm2.jpg"><br>
- 
- 
+N<br>
+default<br>
+default<br>
+default<br>
++10G<br>
+N<br>
+default<br>
+default<br>
+default<br>
+default<br>
+w<br>
 
  
 
+ 
+ <img  src="/assets/images/lvm2.jpg"><br><br>
+ 
+ 
 
-vgcreate VG01 /dev/sc1
-vgcreate VG02 /dev/sc2
+ 
+
+
+vgcreate VG01 /dev/sc1<br>
+vgcreate VG02 /dev/sc2<br>
  
 
 
@@ -80,25 +80,25 @@ vgcreate VG02 /dev/sc2
 
  
 
-lvcreate -L 5G -n LV01 VG01
-lvcreate -l 1279 -n LV02 VG01
-lvcreate -L 5G -n LV03 VG02
-lvcreate -L 5G -n LV04 VG02
-lvcreate -l 1023 -n LV05 VG02
+lvcreate -L 5G -n LV01 VG01<br>
+lvcreate -l 1279 -n LV02 VG01<br>
+lvcreate -L 5G -n LV03 VG02<br>
+lvcreate -L 5G -n LV04 VG02<br>
+lvcreate -l 1023 -n LV05 VG02<br>
 
  
 
  
- <img  src="/assets/images/lvm4.jpg"><br>
+ <img  src="/assets/images/lvm4.jpg"><br><br>
  
  
 
  
 
-yum install xfs*
+yum install xfs*<br><br>
 
-mkfs  -t   xfs -f /dev/VG01/LV01
-mkfs  -t   xfs -f /dev/VG01/LV02
+mkfs  -t   xfs -f /dev/VG01/LV01<br>
+mkfs  -t   xfs -f /dev/VG01/LV02<br><br>
  
 
  
@@ -108,9 +108,9 @@ mkfs  -t   xfs -f /dev/VG01/LV02
 
  
 
-mkfs -t  ext4  /dev/VG02/LV03
-mkfs -t  ext4  /dev/VG02/LV04
-mkfs -t  ext4  /dev/VG02/LV05
+mkfs -t  ext4  /dev/VG02/LV03<br>
+mkfs -t  ext4  /dev/VG02/LV04<br><br>
+mkfs -t  ext4  /dev/VG02/LV05<br>
  
 
 
@@ -121,10 +121,10 @@ mkfs -t  ext4  /dev/VG02/LV05
 
  
 
-mkdir /lvdir01
-mkdir /lvdir02
-mount /dev/VG01/LV01 /lvdir01
-mount /dev/VG01/LV02 /lvdir02
+mkdir /lvdir01<br>
+mkdir /lvdir02<br>
+mount /dev/VG01/LV01 /lvdir01<br>
+mount /dev/VG01/LV02 /lvdir02<br><br>
 
  
 
@@ -143,20 +143,20 @@ mount /dev/VG01/LV02 /lvdir02
 
 
 </h3>
+<br>
 
+Vi /etc/fstab<br>
 
-Vi /etc/fstab
-
-/dev/VG01/LV01 /lvdir01 xfs defaults 1 0
-/dev/VG01/LV02 /lvdir02 xfs defaults 1 0
+/dev/VG01/LV01 /lvdir01 xfs defaults 1 0<br>
+/dev/VG01/LV02 /lvdir02 xfs defaults 1 0<br>
  
 
 
 
  
- <img  src="/assets/images/lvm8.jpg"><br>
+ <img  src="/assets/images/lvm8.jpg"><br><br>
  
- 
+ </h3>
 
 
 
@@ -174,4 +174,4 @@ Vi /etc/fstab
 
 
  
- 
+ <br>
