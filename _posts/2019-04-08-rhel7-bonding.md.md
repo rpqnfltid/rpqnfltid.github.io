@@ -29,9 +29,6 @@ vi ifcfg-bond0<br><br><br>
 DEVICE=bond0<br>
 NAME=bond0<br>
 TYPE=Bond<br>
-BONDING_MASTER=yes<br>
-
-
 IPADDR=192.168.0.2<br>
 NETMASK=255.255.255.0<br>
 GATEWAY=192.168.1.1<br>
@@ -40,7 +37,7 @@ PREFIX=24<br>
 ONBOOT=yes<br>
 BOOTPROTO=none<br>
 BONDING_OPTS="mode=1 miimon=100"<br><br>
-
+ARPCHECK=no         (rhel6 에서는필수)
 
 
  <img  src="/assets/images/bon1.jpg"><br>

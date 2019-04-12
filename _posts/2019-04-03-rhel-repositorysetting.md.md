@@ -57,7 +57,7 @@ vi local.repo<br>
 해서 추가<br>
 [local-repo]<br>
 name=Local Repository<br>
-baseurl=file:///root/iso<br>
+baseurl=file:///root/iso(/Server  rhel6에서는 )<br>
 enabled=1<br>
 gpgcheck=0<br>
 

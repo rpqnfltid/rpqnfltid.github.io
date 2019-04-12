@@ -96,6 +96,7 @@ lvcreate -l 1023 -n LV05 VG02<br>
  
 
 yum install xfs*<br><br>
+xfs는 rhel6에서 지원 안함<br>
 
 mkfs  -t   xfs -f /dev/VG01/LV01<br>
 mkfs  -t   xfs -f /dev/VG01/LV02<br><br>
